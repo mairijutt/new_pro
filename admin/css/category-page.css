@@ -1,0 +1,24 @@
+.view-btn{
+background:#0066FF;
+color:#fff;
+padding:4px;
+margin-right:4px;
+}
+.view-btn:hover, .edit-btn:hover, .del-btn:hover{
+color:#fff;
+}
+.bg-gry{
+background:#f4f4f4;
+}
+.edit-btn{
+background:#009999;
+color:#fff;
+padding:4px;
+margin-right:4px;
+}
+.del-btn{
+background:#CC0000;
+color:#fff;
+padding:4px;
+margin-right:4px;
+}
