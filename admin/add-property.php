@@ -283,7 +283,7 @@
               const headers = { 'Content-Type': 'multipart/form-data' };
               axios.post("http://realestate.indoortv.co/real_estate_api/property/add", formData, { headers }).then((res) => {console.log(this.prop_list = res.data.data.all_property)});
               
-                //  setTimeout("window.location.replace('http://realestate.indoortv.co/admin/properties')", 2000);
+                 setTimeout("window.location.replace('http://realestate.indoortv.co/admin/properties')", 3000);
                  
                  this.message= 'Gallery Images Uploading';
                  

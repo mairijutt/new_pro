@@ -46,6 +46,6 @@
         <li class="nav-item"> <a class="nav-link" href="amenities"> <span><img src="images/Standard Ameities.png" alt="" title=""></span> <span class="menu-title">Standard Ameities</span> </a> </li>
         <li class="nav-item"> <a class="nav-link" href="surroundings"> <span><img src="images/Surroundings.png" alt="" title=""></span> <span class="menu-title">Surroundings</span> </a> </li>
         <li class="nav-item"> <a class="nav-link" href="blogs"> <span><img src="images/Standard Ameities.png" alt="" title=""></span> <span class="menu-title">Blogs</span> </a> </li>
-        <li class="nav-item"> <a class="nav-link" href="video"> <span><img src="images/Standard Surroundings.png" alt="" title=""></span> <span class="menu-title">Add Video</span> </a> </li>
+        <li class="nav-item"> <a class="nav-link" href="video"> <span><img src="images/Standard Ameities.png" alt="" title=""></span> <span class="menu-title">Add Video</span> </a> </li>
       </ul>
     </nav>

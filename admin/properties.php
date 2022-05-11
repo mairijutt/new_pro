@@ -86,7 +86,7 @@ opt_sur:[],
 
       mounted () {
         //    axios.get('http://realestate.indoortv.co/real_estate_api/surrondings/all').then(res => {this.surr_list = res.data.data.all_surroundings});
-            axios.get("http://localhost/real_estate_api/property/all").then(res => {this.prop_list = res.data.data.all_property; this.opt_amen = res.data.data.all_amen; this.opt_fet = res.data.data.all_fet; this.opt_sur = res.data.data.all_surr;});
+            axios.get("http://realestate.indoortv.co/real_estate_api/property/all").then(res => {this.prop_list = res.data.data.all_property; this.opt_amen = res.data.data.all_amen; this.opt_fet = res.data.data.all_fet; this.opt_sur = res.data.data.all_surr;});
           },
       methods: {
             save(){
@@ -96,7 +96,7 @@ opt_sur:[],
                 formData.append('surr_class', this.surr_class)
                 formData.append('surr_distance', this.surr_distance)
                 formData.append('surr_contact', this.surr_contact)
-              axios.post('http://localhost/real_estate_api/surrondings/add', formData).then((res) => {this.surr_list = res.data.data.all_surroundings});
+              axios.post('http://indoortv.co/real_estate_api/surrondings/add', formData).then((res) => {this.surr_list = res.data.data.all_surroundings});
 
                 this.surr_name='';
                 this.surr_address='';

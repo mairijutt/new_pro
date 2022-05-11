@@ -41,7 +41,7 @@
       },
       mounted(){
 
-        axios.get('http://localhost/real_estate_api/videos/all').then((res) => {this.vlink=res.data.data.vlink[0].video_link});
+        axios.get('http://realestate.indoortv.co/real_estate_api/videos/all').then((res) => {this.vlink=res.data.data.vlink[0].video_link});
       },
 
       methods: {
@@ -49,7 +49,7 @@
               const formData = new FormData();
               formData.append('video_link', this.vlink)
               const headers = { 'Content-Type': 'multipart/form-data' }
-              axios.post('http://localhost/real_estate_api/videos/add', formData, { headers }).then((res) => {this.vlink=res.data.data.vlink[0].video_link});
+              axios.post('http://realestate.indoortv.co/real_estate_api/videos/add', formData, { headers }).then((res) => {this.vlink=res.data.data.vlink[0].video_link});
               
             }
 
