@@ -1,5 +1,5 @@
 <?php include 'header.php';?>
-   
+
     <!-- partial -->
     <div id="app" class="main-panel">
       <div class="content-wrapper">
@@ -25,11 +25,11 @@
             <div class="row">
 
               <div class="col-3" v-for="(prop, index) in prop_list" :key="index">
-              <div class="card" style="width: 18rem;margin-bottom:10px; height: 350px; border-radius: 20px; 
+              <div class="card" style="width: 18rem;margin-bottom:10px; height: 350px; border-radius: 20px;
     margin-bottom: 50px;">
-                
+
                       <img :src="prop.img" class="card-img-top" style="border-radius: 20px 20px 0px 0px;" alt="...">
-                      <a href="/detail?id=50" style=" a:hover {
+                      <a :href="/detail?id=prop.id" style=" a:hover {
     color: #0056b3;
     text-decoration: underline;
     text-decoration: none;
@@ -47,9 +47,9 @@
                       <p class="card-text"><h5><b>$ {{prop.monthly_rent}}</b> / Month</h5></p>
                       <p class="card-text">{{prop.property_name}}</p>
                       <p class="card-text row justify-content-around"><img src="../images/item-foot1.png"/><b>{{prop.rooms}}</b><img src="../images/item-foot2.png"/><b>{{prop.bath_rooms}}</b><img src="./images/item-foot3.png"/><b>{{prop.space_size}} SqFt</b></p>
-                      </div>  
-                    </a>  
-                    
+                      </div>
+                    </a>
+
                     </div>
                 </div>
 </div>
